@@ -13,8 +13,6 @@ if (!$db) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-
-
 // function to display the results of a query as a table.
 function display_query($sql){
 	global $db;
@@ -50,7 +48,6 @@ function display_query($sql){
 	} else {
 	  echo "0 results";
 	}
-
 
 
 ?>
